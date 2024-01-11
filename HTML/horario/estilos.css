@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+}
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 9px;
+}
+table{
+    box-shadow: 0px 15px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    border-radius: 8px;
+}
+table:hover{
+    transform: scale(1.1);
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+.ISO{
+    background-color: red;
+}
+.REDES{
+    background-color: blue;
+}
+.MAY{
+    background-color: orange;
+}
+.FOL{
+    background-color: yellow;
+}
+.FH{
+    background-color: green;
+}
+.BD{
+    background-color: purple;
+}
+.dia{
+    background-color: aqua;
+}
+.Hora{
+    background-color: bisque;
+}
+.leyenda{
+    margin-left: 40%;
+}
+.ft{
+    width: 100px;
+}

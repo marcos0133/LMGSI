@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejer1</title>
+    <style>
+        table,tr,td,th{
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding: 5px;text-align: center;
+            font-family: Arial, Helvetica, sans-serif; 
+            justify-content: center;      
+        }
+        table th {background-color: blueviolet; }
+        .c1{
+            background-color: aqua;
+        }
+        table tr:nth-child(odd) {
+            background-color: red;
+        }
+        table tr:nth-child(even) {
+            background-color: green;
+        }
+        img{
+            width: 20px;
+        }
+        div{
+            justify-content: center;
+        }
+    </style>
+</head>
+<div>
+    <body>
+        <table>
+            <tr>
+                <th>Cambio</th>
+                <th>compra</th>
+                <th>venta</th>
+                <th>máximo</th>
+                <th>mínimo</th>
+            </tr>
+            <tr>
+                <td class="c1"><img src="fotos/euro.jpg" alt=""><strong>euro/dolar</strong></td>
+                <td>4231</td>
+                <td>321</td>
+                <td>231</td>
+                <td>12432</td>
+            </tr>
+            <tr>
+                <td class="c1"><img src="fotos/dolar.jpg" alt=""><strong>dolar/yen</strong></td>
+                <td>62356</td>
+                <td>63</td>
+                <td>786</td>
+                <td>342</td>
+            </tr>
+            <tr>
+                <td class="c1"><img src="fotos/libra.jpg" alt=""><strong>libra/dolar</strong></td>
+                <td>2313</td>
+                <td>342</td>
+                <td>543</td>
+                <td>543</td>
+            </tr>
+            <tr>
+                <td class="c1"><img src="fotos/yen.png" alt=""><strong>euro/yen</strong></td>
+                <td>423</td>
+                <td>4324</td>
+                <td>432</td>
+                <td>34243</td>
+            </tr>
+        </table>
+    </body>
+</div>
+</html>
