@@ -1,0 +1,22 @@
+h2::first-letter{
+    font-size: 2em;
+}
+h2 + p{
+    text-indent: 2em;
+}
+
+a::before{
+    content: "→";
+}
+abbr[title="HTML"]::after{
+    content: "(Hyper text Markup Language)";
+    font-style: italic;
+}
+abbr[title="Uniform Resource Locator"]::after{
+    content: "(Uniform Resource Locator)";
+    font-style: italic;
+}
+abbr[title="CSS"]::after{
+    content: "(Cascading Style Sheets)";
+    font-style: italic;
+}
