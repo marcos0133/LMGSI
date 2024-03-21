@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template Float</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="estilo_prueba (1).css">
+<link rel="stylesheet" href="flexboxgrid.min (1).css">
+<script type="text/javascript">
+  function muestra(capa) {
+  var capas = document.getElementsByTagName("div")
+  for(var i=0; i<capas.length; i++) {
+  if(capas[i].className == "articulo visible")
+  capas[i].className = "articulo oculto";
+  }
+  var elemento = document.getElementById(capa);
+  elemento.className = "articulo visible";
+  }
+  </script>
+  
+
+
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h2>Cities</h2>
+    </header>
+    <section class="row">
+      <div class="col-xs-12 col-md-2">
+        <nav class="nav">
+          <ul class="nav ul">
+            <li class="nav ul li"><a href="#" onclick="muestra('arti1')">London</a></li>
+            <li class="nav ul li"><a href="#" onclick="muestra('arti2')">Paris</a></li>
+            <li class="nav ul li"><a href="#" onclick="muestra('arti3')">Tokyo</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-md-8">
+      <article>
+        <div id="arti1" class="articulo visible">
+          <h1>London</h1>
+          <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+        </div>
+      </article>
+      <article>
+        <div id="arti2" class="articulo oculto">
+          <h1>Tokyo</h1>
+          <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+        </div>
+      </article>
+      <article>
+        <div id="arti3" class="articulo oculto">
+          <h1>Paris</h1>
+          <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Footer</p>
+    </footer>
+</div>
+</body>
+</html>

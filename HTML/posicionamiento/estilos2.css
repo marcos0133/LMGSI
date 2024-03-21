@@ -1,0 +1,49 @@
+body{
+    width:80%; 
+    background-color: #f5f5f5; 
+    text-align: center; 
+    margin: 0 auto 0 auto; 
+    font-family:Verdana; }
+
+header{
+    width:100%; 
+    background-color: green; 
+    text-align: center; 
+    overflow:hidden; 
+    padding: 0px 0px 0px 0px; 
+    margin: 0 auto 10px auto; }
+
+section{
+    width: 100%; 
+    margin: 0px auto 0px auto; 
+    background-color: #f5f5f5; 
+    overflow: hidden; 
+}
+
+nav{
+    float: left; 
+    width: 70%; 
+    background-color: red; 
+    font: 12pt Verdana; 
+    text-align: justify; }
+
+article{
+    float: right;
+    width: 30%;
+    background-color: #eeffff; 
+    font: 10pt Verdana; 
+    text-align: center; }
+
+footer{
+    clear: both; 
+    background-color: yellow; 
+    margin: 10px 0 0 0; 
+    padding: 0 0 0 0px; 
+    text-align:center; 
+    font: 8pt Verdana; }
+
+@media (max-width: 600px) {
+    nav, article {
+    width: 100%;
+    height: auto;}
+}
